@@ -1,0 +1,56 @@
+{
+  "name": "download.jqueryui.com",
+  "version": "2.1.16",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquery/download.jqueryui.com.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "0.14.4",
+    "async": "0.1.22",
+    "bower": "1.3.8",
+    "builder-amd": "0.0.x",
+    "builder-jquery-css": "0.0.4",
+    "connect": "1.9.2",
+    "dateformat": "1.0.2-1.2.3",
+    "formidable": "1.0.9",
+    "glob": "4.0.0",
+    "gm": "1.8.1",
+    "grunt": "0.4.5",
+    "grunt-check-modules": "0.2.0",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-handlebars": "0.5.7",
+    "grunt-contrib-jshint": "0.9.2",
+    "grunt-contrib-uglify": "0.2.0",
+    "handlebars": "1.0.12",
+    "jquery-ui-themeroller": "0.0.x",
+    "lzma": "1.2.1",
+    "node-packager": "0.0.6",
+    "optimist": "0.3.4",
+    "q": "1.1.2",
+    "qs": "^5.2.0",
+    "requirejs": "2.1.8",
+    "rimraf": "2.0.2",
+    "semver": "1.1.0",
+    "simple-log": "1.3.0",
+    "sqwish": "0.2.0",
+    "uglify-js": "2.2.5",
+    "underscore": "1.4.4",
+    "winston": "0.7.3"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.0"
+  },
+  "main": "main.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/download.jqueryui.com/blob/master/LICENSE.txt"
+    }
+  ],
+  "scripts": {
+    "test": "nodeunit test"
+  }
+}
